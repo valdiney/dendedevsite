@@ -228,7 +228,7 @@
 
             localStorage.setItem("id_message", objeto.id_message);
 
-            if (localStorage.getItem("id_message") == null || localStorage.getItem("id_message") == objeto.id_message) {
+            if (localStorage.getItem("id_message") == null || localStorage.getItem("id_message") != objeto.id_message) {
             	showNotification(objeto.msg);
             }
             

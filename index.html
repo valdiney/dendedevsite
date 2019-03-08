@@ -199,7 +199,7 @@
 		    Notification.requestPermission(function(result) {
 			    if (result === 'granted') {
 			      navigator.serviceWorker.ready.then(function(registration) {
-			        registration.showNotification('Vibration Sample', {
+			        registration.showNotification('Mensagem', {
 			          body: 'Precisando de manutenção em seu site ou aplicativo? Contate a Dendêdev e faça um orçamento. Temos preços bons de verdade!',
 			          icon: 'http://www.wplay.com.br/wp-content/uploads/2017/04/foto-design-responsivo-750x400.jpg',
 			          vibrate: [200, 100, 200, 100, 200, 100, 200],

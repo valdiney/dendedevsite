@@ -226,7 +226,7 @@
 		ref.on("value", function(snapshot) {
             var objeto = snapshot.val();
 
-            localStorage.setItem("id_message", objeto.idmessage);
+            localStorage.setItem("id_message", objeto.id_message);
 
             if (localStorage.getItem("id_message") == null || localStorage.getItem("id_message") == objeto.id_message) {
             	showNotification(objeto.msg);

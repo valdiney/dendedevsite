@@ -94,9 +94,9 @@
 	</style>
 
 	<script type="text/javascript">
-    	/*navigator.serviceWorker && navigator.serviceWorker.register('sw.js').then(function(registration) {
+    	navigator.serviceWorker && navigator.serviceWorker.register('sw.js').then(function(registration) {
 		  console.log('SW funcionando, registrado com o escopo: ', registration.scope);
-		});*/
+		});
     </script>
 </head>
 <body>
@@ -313,9 +313,6 @@
             localStorage.setItem("id_message", objeto.id_message);
             
         });
-
-		
-
 	});	  
 </script>
     
